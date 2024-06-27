@@ -1,0 +1,14 @@
+GET http://localhost:8080/vovo
+###
+
+POST http://localhost:8080/vovo
+
+{
+    "nome": "Vovó Maria",
+    "idade": 85,
+    "cidade": "São Paulo"
+}
+###
+
+
+DELETE http://localhost:8080/vovo
